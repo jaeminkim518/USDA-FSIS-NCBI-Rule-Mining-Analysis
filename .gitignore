@@ -1,5 +1,6 @@
-Data/
-Output/
+Data/isolates.tsv
+Data/asts.tsv
+Output/isolates_clean.csv
 .Rhistory
 .RData
 .Rproj.user/
