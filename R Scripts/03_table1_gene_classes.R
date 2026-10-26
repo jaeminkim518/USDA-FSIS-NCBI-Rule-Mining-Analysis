@@ -80,9 +80,57 @@ table(gene_map$class)
 write_csv(gene_map, "Output/gene_class_map.csv")
 
 
-# Table 1
+
+# Gene -> class (one row per gene x class)
+# genes with more than one class count for each one,
+# sulfonamide + trimethoprim = folate pathway inhibitor (like Glass et al.)
+gene_classes <- gene_map %>%
+  select(gene, class) %>%
+  separate_rows(class, sep = "/")
+
+gene_classes$class[gene_classes$class %in% c("SULFONAMIDE", "TRIMETHOPRIM")] <- "FOLATE-PATHWAY-INHIBITOR"
+gene_classes <- distinct(gene_classes)
+
+isolate_class_long <- amr_long %>%
+  inner_join(gene_classes, by = "gene", relationship = "many-to-many") %>%
+  distinct(BioSample, class)
+
+# class frequency counts (number of isolates with each class)
+class_freq <- isolate_class_long %>% count(class, sort = TRUE)
+class_freq
+write_csv(class_freq, "Output/class_frequency.csv")
+
+
+# Classes per isolate (NARMS panel classes)
+narms_classes <- c("AMINOGLYCOSIDE", "BETA-LACTAM", "FOLATE-PATHWAY-INHIBITOR", "MACROLIDE",
+                   "PHENICOL", "COLISTIN", "QUINOLONE", "TETRACYCLINE")
+
+isolate_classes <- isolate_class_long %>%
+  filter(class %in% narms_classes) %>%
+  mutate(present = 1L) %>%
+  pivot_wider(names_from = class, values_from = present, values_fill = 0L)
+
+isolate_classes <- isolates %>%
+  select(BioSample) %>%
+  left_join(isolate_classes, by = "BioSample") %>%
+  mutate(across(-BioSample, ~ replace_na(.x, 0L))) %>%
+  select(BioSample, all_of(narms_classes))
+
+# AMR category: Susceptible = 0 classes, Resistant = 1-2 classes, MDR = 3+ classes
+isolate_classes$n_classes <- rowSums(isolate_classes[, narms_classes])
+isolate_classes$amr_category <- "Susceptible"
+isolate_classes$amr_category[isolate_classes$n_classes >= 1] <- "Resistant"
+isolate_classes$amr_category[isolate_classes$n_classes >= 3] <- "MDR"
+
+table(isolate_classes$n_classes)
+table(isolate_classes$amr_category)
+write_csv(isolate_classes, "Output/isolate_classes.csv")
+
+# Table 1 (NARMS panel classes only)
 table1 <- amr_long %>%
-  inner_join(gene_map, by = "gene") %>%
+  inner_join(gene_map %>% select(gene, gene_family, subclass), by = "gene") %>%
+  inner_join(gene_classes, by = "gene", relationship = "many-to-many") %>%
+  filter(class %in% narms_classes) %>%
   left_join(isolates, by = "BioSample") %>%
   group_by(class, subclass) %>%
   summarise(genes = paste(sort(unique(gene_family)), collapse = ", "),

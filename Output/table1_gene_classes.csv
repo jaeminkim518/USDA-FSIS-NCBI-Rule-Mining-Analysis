@@ -1,54 +1,45 @@
 class,subclass,genes,n_genes,n_isolates,in_dataset
-AMINOGLYCOSIDE,STREPTOMYCIN,"aadA1, aadA10, aadA11, aadA12, aadA13, aadA15, aadA16, aadA2, aadA21, aadA22, aadA25, aadA3, aadA31, aadA4, aadA5, aadA6, aadA7, aadA8, aadE, aadK, aph(3'')-Ib, aph(6)-Ic, aph(6)-Id",23,69049,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,KANAMYCIN,"aph(3')-Ia, aph(3')-II, aph(3')-IIa",3,12088,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,APRAMYCIN/GENTAMICIN/TOBRAMYCIN,aac(3)-IVa,1,10327,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,HYGROMYCIN,aph(4)-Ia,1,10293,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,GENTAMICIN,"aac(3)-I, aac(3)-Id, aac(3)-IId, aac(3)-IIe, aac(3)-IIg, aac(3)-VIa, aac(6')-Ib, aac(6')-Ib', armA, gar",10,5256,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,GENTAMICIN/KANAMYCIN/TOBRAMYCIN,"aac(3)-C322, aac(6')-IIc, ant(2'')-Ia",3,777,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,KASUGAMYCIN,aac(2')-IIa,1,308,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,AMINOGLYCOSIDE,"aac(3)-II, aac(3)-IV, aac(6'), aac(6')-Ie, ant(3''), aph(2'')-I, aph(2'')-Ia, aph(3''), rmtB, rmtC, rmtE",13,292,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,AMIKACIN/KANAMYCIN/TOBRAMYCIN,"aac(6'), aac(6')-F309, aac(6')-Ib",4,171,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,GENTAMICIN/PLAZOMICIN,grdA,1,171,cecal; non-cecal; other; retail
-AMINOGLYCOSIDE,AMIKACIN/KANAMYCIN,"aph(3')-Id, aph(3')-XV, aphA16",3,27,cecal; non-cecal; other
+AMINOGLYCOSIDE,STREPTOMYCIN,"aadA1, aadA10, aadA11, aadA12, aadA13, aadA15, aadA16, aadA2, aadA21, aadA22, aadA25, aadA3, aadA31, aadA4, aadA5, aadA6, aadA7, aadA8, aadE, aadK, aph(3'')-Ib, aph(6)-Ic, aph(6)-Id",23,64681,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,KANAMYCIN,"aph(3')-Ia, aph(3')-II, aph(3')-IIa",3,11260,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,APRAMYCIN/GENTAMICIN/TOBRAMYCIN,aac(3)-IVa,1,10026,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,HYGROMYCIN,aph(4)-Ia,1,9997,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,GENTAMICIN,"aac(3)-I, aac(3)-Id, aac(3)-IId, aac(3)-IIe, aac(3)-IIg, aac(3)-VIa, aac(6')-Ib, aac(6')-Ib', armA, gar",10,4782,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,GENTAMICIN/KANAMYCIN/TOBRAMYCIN,"aac(3)-C322, aac(6')-IIc, ant(2'')-Ia",3,681,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,AMIKACIN/KANAMYCIN/QUINOLONE/TOBRAMYCIN,aac(6')-Ib-cr,3,295,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,KASUGAMYCIN,aac(2')-IIa,1,295,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,AMINOGLYCOSIDE,"aac(3)-II, aac(3)-IV, aac(6'), aac(6')-Ie, ant(3''), aph(2'')-Ia, aph(3''), rmtB, rmtC, rmtE",11,274,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,AMIKACIN/KANAMYCIN/TOBRAMYCIN,"aac(6'), aac(6')-F309, aac(6')-Ib",4,162,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,GENTAMICIN/PLAZOMICIN,grdA,1,151,cecal; non-cecal; other; retail
+AMINOGLYCOSIDE,AMIKACIN/KANAMYCIN,"aph(3')-Id, aph(3')-XV, aphA16",3,26,cecal; non-cecal; other
 AMINOGLYCOSIDE,AMIKACIN/GENTAMICIN/KANAMYCIN/TOBRAMYCIN,aac(6')-Ie/aph(2'')-Ia,1,5,cecal; other
 AMINOGLYCOSIDE,SPECTINOMYCIN/STREPTOMYCIN,ant(3'')-Ia,1,5,other
-AMINOGLYCOSIDE/QUINOLONE,AMIKACIN/KANAMYCIN/QUINOLONE/TOBRAMYCIN,aac(6')-Ib-cr,3,318,cecal; non-cecal; other; retail
-BETA-LACTAM,BETA-LACTAM,"bla, blaEC, blaHER, blaLAP, blaOXA, blaPSE, blaSCO, blaSHV, blaTEM",43,27409,cecal; non-cecal; other; retail
-BETA-LACTAM,CEPHALOSPORIN,"blaCMY, blaCTX-M, blaDHA, blaFOX, blaKLUC, blaOXA, blaROB, blaSHV, blaTEM, blaVEB",50,19344,cecal; non-cecal; other; retail
-BETA-LACTAM,CEFIDEROCOL/CEPHALOSPORIN,blaSHV,1,393,cecal; non-cecal; other; retail
-BETA-LACTAM,CARBAPENEM,"blaIMP, blaKPC, blaNDM, blaOXA, blaVIM",9,82,non-cecal; other; retail
-BLEOMYCIN,BLEOMYCIN,"ble, bleO",2,1514,cecal; non-cecal; other; retail
-COLISTIN,COLISTIN,"mcr-1, mcr-3, mcr-5, mcr-9, pmrA, pmrB, qseB, qseC",27,1042,cecal; non-cecal; other; retail
-EFFLUX,EFFLUX,"mdsA, mdsB",2,510067,cecal; non-cecal; other; retail
-FOSFOMYCIN,FOSFOMYCIN,"fos, fosA, fosA7, fosA8, fosL, fosX",16,28713,cecal; non-cecal; other; retail
-GLYCOPEPTIDE,VANCOMYCIN,"vanB, vanH-B, vanR-B, vanS-B, vanW-B, vanX-B, vanY-B",7,1,other
-LINCOSAMIDE,LINCOSAMIDE,"lnu(A), lnu(F), lnu(G)",3,1145,cecal; non-cecal; other; retail
-LINCOSAMIDE/MACROLIDE,CLINDAMYCIN/ERYTHROMYCIN,"erm(42), erm(49)",2,36,cecal; non-cecal; other
-LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN,CLINDAMYCIN/ERYTHROMYCIN/STREPTOGRAMIN B,erm(B),1,108,cecal; non-cecal; other
-LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN,ERYTHROMYCIN/LINCOSAMIDE/STREPTOGRAMIN/TYLOSIN,"erm(G), erm(T)",2,6,other
-LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN,CLINDAMYCIN/ERYTHROMYCIN/STREPTOGRAMIN B/TYLOSIN,erm(C),1,4,other
-LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN,CLINDAMYCIN/MACROLIDE/STREPTOGRAMIN,erm(F),1,1,other
-LINCOSAMIDE/OXAZOLIDINONE/PHENICOL/PLEUROMUTILIN/STREPTOGRAMIN,CHLORAMPHENICOL/CLINDAMYCIN/FLORFENICOL/LINEZOLID/STREPTOGRAMIN B/TIAMULIN/VIRGINIAMYCIN,cfr,1,1,other
-MACROLIDE,AZITHROMYCIN/ERYTHROMYCIN/SPIRAMYCIN/TELITHROMYCIN,"mph(A), mrx(A)",2,4849,cecal; non-cecal; other; retail
-MACROLIDE,TYLOSIN,"estT, estX",3,1172,cecal; non-cecal; other; retail
-MACROLIDE,ERYTHROMYCIN,"ere(A), mef(C), mph(E), mph(F), mph(G)",5,566,cecal; non-cecal; other; retail
-MACROLIDE,AZITHROMYCIN/CLARITHROMYCIN/ERYTHROMYCIN,acrB,2,345,cecal; non-cecal; other; retail
-MACROLIDE,AZITHROMYCIN/ERYTHROMYCIN,mef(B),1,54,cecal; non-cecal; other; retail
-MACROLIDE,MACROLIDE,"erm, erm(52), mle, mph",4,46,cecal; non-cecal; other
-MACROLIDE,ERYTHROMYCIN/SPIRAMYCIN/TELITHROMYCIN,mph(B),1,13,cecal; non-cecal; other
-MACROLIDE/STREPTOGRAMIN,AZITHROMYCIN/ERYTHROMYCIN/STREPTOGRAMIN,msr(E),1,126,cecal; non-cecal; other; retail
-MULTIDRUG,AMPICILLIN/CHLORAMPHENICOL/FLUOROQUINOLONE/RIFAMPIN/TETRACYCLINE,ramR,7,298,cecal; non-cecal; other
-MULTIDRUG,CHLORAMPHENICOL/FLUOROQUINOLONE/TEMOCILLIN/TETRACYCLINE/TIGECYCLINE,ramR,98,192,non-cecal; other; retail
-MULTIDRUG,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,soxR,2,8,other
-NITROFURAN/PHENICOL/QUINOLONE/TETRACYCLINE,NITROFURANTOIN/PHENICOL/QUINOLONE/TIGECYCLINE,"oqxA, oqxB",2,146,cecal; non-cecal; other
-PHENICOL,CHLORAMPHENICOL/FLORFENICOL,"floR, floR2",2,24043,cecal; non-cecal; other; retail
-PHENICOL,CHLORAMPHENICOL,"catA, catA1, catA2, catA3, catB, catB2, catB3, cmlA, cmlA1, cmlA4, cmlA5",13,2790,cecal; non-cecal; other; retail
-PHENICOL/QUINOLONE,PHENICOL/QUINOLONE,"oqxA, oqxB",2,1,other
-QUINOLONE,QUINOLONE,"acrB, gyrA, gyrB, parC, parE, qepA, qnrA, qnrB, qnrD, qnrE, qnrS, qnrVC",58,84688,cecal; non-cecal; other; retail
-RIFAMYCIN,RIFAMYCIN,"arr, arr-3",3,958,cecal; non-cecal; other; retail
-STREPTOGRAMIN,STREPTOGRAMIN,vat,1,26,other
-STREPTOTHRICIN,STREPTOTHRICIN,"sat2, satA",2,95,cecal; non-cecal; other
-SULFONAMIDE,SULFONAMIDE,"sul1, sul2, sul3",3,56747,cecal; non-cecal; other; retail
-TETRACYCLINE,TETRACYCLINE,"tet, tet(31), tet(32), tet(40), tet(A), tet(B), tet(C), tet(D), tet(E), tet(G), tet(M), tet(O), tet(W), tet(Y)",14,76503,cecal; non-cecal; other; retail
-TETRACYCLINE,TIGECYCLINE,"tet(X2), tet(X4), tet(X5), tmexC, tmexD, toprJ",9,25,cecal; non-cecal; other
-TRIMETHOPRIM,TRIMETHOPRIM,"dfr, dfrA, dfrA1, dfrA10, dfrA12, dfrA14, dfrA15, dfrA16, dfrA17, dfrA19, dfrA21, dfrA22, dfrA23, dfrA25, dfrA27, dfrA29, dfrA32, dfrA34, dfrA36, dfrA48, dfrA5, dfrA51, dfrA7, dfrA8, dfrB, dfrB4, dfrF, dfrI",28,20160,cecal; non-cecal; other; retail
+BETA-LACTAM,BETA-LACTAM,"bla, blaEC, blaHER, blaLAP, blaOXA, blaPSE, blaSCO, blaSHV, blaTEM",42,24695,cecal; non-cecal; other; retail
+BETA-LACTAM,CEPHALOSPORIN,"blaCMY, blaCTX-M, blaDHA, blaFOX, blaKLUC, blaOXA, blaROB, blaSHV, blaTEM, blaVEB",46,18048,cecal; non-cecal; other; retail
+BETA-LACTAM,CEFIDEROCOL/CEPHALOSPORIN,blaSHV,1,370,cecal; non-cecal; other; retail
+BETA-LACTAM,CARBAPENEM,"blaIMP, blaKPC, blaNDM, blaOXA, blaVIM",9,72,non-cecal; other; retail
+COLISTIN,COLISTIN,"mcr-1, mcr-3, mcr-5, mcr-9, pmrA, pmrB, qseB, qseC",25,914,cecal; non-cecal; other; retail
+FOLATE-PATHWAY-INHIBITOR,SULFONAMIDE,"sul1, sul2, sul3",3,52766,cecal; non-cecal; other; retail
+FOLATE-PATHWAY-INHIBITOR,TRIMETHOPRIM,"dfr, dfrA, dfrA1, dfrA10, dfrA12, dfrA14, dfrA15, dfrA16, dfrA17, dfrA19, dfrA21, dfrA22, dfrA23, dfrA25, dfrA27, dfrA32, dfrA34, dfrA36, dfrA48, dfrA5, dfrA51, dfrA7, dfrA8, dfrB, dfrB4, dfrF, dfrI",27,18579,cecal; non-cecal; other; retail
+MACROLIDE,AZITHROMYCIN/ERYTHROMYCIN/SPIRAMYCIN/TELITHROMYCIN,"mph(A), mrx(A)",2,4358,cecal; non-cecal; other; retail
+MACROLIDE,TYLOSIN,"estT, estX",3,1074,cecal; non-cecal; other; retail
+MACROLIDE,ERYTHROMYCIN,"ere(A), mef(C), mph(E), mph(F), mph(G)",5,534,cecal; non-cecal; other; retail
+MACROLIDE,AZITHROMYCIN/CLARITHROMYCIN/ERYTHROMYCIN,acrB,2,293,cecal; non-cecal; other; retail
+MACROLIDE,AZITHROMYCIN/ERYTHROMYCIN/STREPTOGRAMIN,msr(E),1,121,cecal; non-cecal; other; retail
+MACROLIDE,CLINDAMYCIN/ERYTHROMYCIN/STREPTOGRAMIN B,erm(B),1,95,cecal; non-cecal; other
+MACROLIDE,AZITHROMYCIN/ERYTHROMYCIN,mef(B),1,46,cecal; non-cecal; other; retail
+MACROLIDE,MACROLIDE,"erm, erm(52), mle, mph",4,39,cecal; non-cecal; other
+MACROLIDE,CLINDAMYCIN/ERYTHROMYCIN,erm(42),1,34,cecal; non-cecal; other
+MACROLIDE,ERYTHROMYCIN/SPIRAMYCIN/TELITHROMYCIN,mph(B),1,12,cecal; non-cecal; other
+MACROLIDE,ERYTHROMYCIN/LINCOSAMIDE/STREPTOGRAMIN/TYLOSIN,"erm(G), erm(T)",2,6,other
+MACROLIDE,CLINDAMYCIN/MACROLIDE/STREPTOGRAMIN,erm(F),1,1,other
+PHENICOL,CHLORAMPHENICOL/FLORFENICOL,"floR, floR2",2,22336,cecal; non-cecal; other; retail
+PHENICOL,CHLORAMPHENICOL,"catA, catA1, catA2, catB, catB2, catB3, cmlA, cmlA1, cmlA4, cmlA5",12,2437,cecal; non-cecal; other; retail
+PHENICOL,NITROFURANTOIN/PHENICOL/QUINOLONE/TIGECYCLINE,"oqxA, oqxB",2,135,cecal; non-cecal; other
+PHENICOL,PHENICOL/QUINOLONE,"oqxA, oqxB",2,1,other
+QUINOLONE,QUINOLONE,"acrB, gyrA, gyrB, parC, parE, qepA, qnrA, qnrB, qnrD, qnrE, qnrS, qnrVC",58,77497,cecal; non-cecal; other; retail
+QUINOLONE,AMIKACIN/KANAMYCIN/QUINOLONE/TOBRAMYCIN,aac(6')-Ib-cr,3,295,cecal; non-cecal; other; retail
+QUINOLONE,NITROFURANTOIN/PHENICOL/QUINOLONE/TIGECYCLINE,"oqxA, oqxB",2,135,cecal; non-cecal; other
+QUINOLONE,PHENICOL/QUINOLONE,"oqxA, oqxB",2,1,other
+TETRACYCLINE,TETRACYCLINE,"tet, tet(31), tet(32), tet(40), tet(A), tet(B), tet(C), tet(D), tet(E), tet(G), tet(M), tet(O), tet(W), tet(Y)",14,71524,cecal; non-cecal; other; retail
+TETRACYCLINE,NITROFURANTOIN/PHENICOL/QUINOLONE/TIGECYCLINE,"oqxA, oqxB",2,135,cecal; non-cecal; other
+TETRACYCLINE,TIGECYCLINE,"tet(X2), tet(X4), tet(X5), tmexC, tmexD, toprJ",9,24,cecal; non-cecal; other

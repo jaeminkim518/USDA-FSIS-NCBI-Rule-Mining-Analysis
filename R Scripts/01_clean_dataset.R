@@ -1,5 +1,5 @@
 ## 01_clean_dataset.R
-## Cleaning the NCBI Salmonella isolates data
+## Cleaning the NCBI Salmonella isolates data / US only, isolates collected 2015 onward.
 ## Data downloaded from NCBI Isolates Browser on 10/23/2026
 
 library(readr)
@@ -80,6 +80,13 @@ isolates$Year <- as.numeric(substr(isolates$collection_date, 1, 4))
 
 table(isolates$Year, useNA = "ifany")
 
+# US only, 2015 onward
+isolates <- isolates %>%
+  filter(is.na(Location) | Location == "not provided" | str_starts(Location, "USA")) %>%
+  filter(Year >= 2015)
+
+nrow(isolates)
+table(isolates$specimen_type, isolates$Year)
 
 # Save
 isolates_clean <- isolates %>%
@@ -97,3 +104,11 @@ counts_by_year <- isolates_clean %>%
 
 counts_by_year
 write_csv(counts_by_year, "Output/counts_by_year.csv")
+
+# counts by specimen type and sample type
+counts_by_sample <- isolates_clean %>%
+  count(specimen_type, sample_type) %>%
+  pivot_wider(names_from = sample_type, values_from = n, values_fill = 0)
+
+counts_by_sample
+write_csv(counts_by_sample, "Output/counts_by_sample_type.csv")

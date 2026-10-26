@@ -84,3 +84,14 @@ vir_matrix <- isolates %>%
 
 dim(vir_matrix)
 write_csv(vir_matrix, "Output/vir_matrix.csv.gz")
+
+# HPS = at least 5 of these 8 virulence genes present
+hps_genes <- c("invA", "avrA", "gtgA", "lpfB", "sspH2", "sseK2", "sseK3", "spvD")
+hps_genes[!hps_genes %in% names(vir_matrix)]   # should be empty
+
+hps <- vir_matrix %>% select(BioSample, all_of(hps_genes))
+hps$n_hps_genes <- rowSums(hps[, hps_genes])
+hps$HPS <- ifelse(hps$n_hps_genes >= 5, "HPS", "non-HPS")
+
+table(hps$HPS)
+write_csv(hps, "Output/hps.csv")
