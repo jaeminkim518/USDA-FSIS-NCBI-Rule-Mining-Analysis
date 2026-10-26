@@ -1,0 +1,231 @@
+specimen_type,sample_type,serotype,n,pct
+cecal,Beef,Montevideo,1079,21.3
+cecal,Beef,Cerro,911,18
+cecal,Beef,Anatum,513,10.1
+cecal,Beef,Muenster,202,4
+cecal,Beef,Kentucky,197,3.9
+cecal,Beef,Muenchen,185,3.7
+cecal,Beef,Typhimurium,183,3.6
+cecal,Beef,Newport,158,3.1
+cecal,Beef,Agona,118,2.3
+cecal,Beef,Mbandaka,105,2.1
+cecal,Beef,Meleagridis,105,2.1
+cecal,Chicken,Infantis,1060,31.5
+cecal,Chicken,Kentucky,923,27.4
+cecal,Chicken,Enteritidis,388,11.5
+cecal,Chicken,Typhimurium,379,11.2
+cecal,Chicken,Schwarzengrund,235,7
+cecal,Chicken,Heidelberg,34,1
+cecal,Chicken,"I -:r:1,5",31,0.9
+cecal,Chicken,Senftenberg,29,0.9
+cecal,Chicken,Mbandaka,23,0.7
+cecal,Chicken,Alachua,22,0.7
+cecal,Other,"IIIb 61:k:1,5,(7)",175,46.7
+cecal,Other,Muenster,18,4.8
+cecal,Other,Montevideo,15,4
+cecal,Other,Altona,14,3.7
+cecal,Other,Anatum,14,3.7
+cecal,Other,Typhimurium,14,3.7
+cecal,Other,"I 4,[5],12:i:-",13,3.5
+cecal,Other,Infantis,11,2.9
+cecal,Other,Agona,10,2.7
+cecal,Other,Muenchen,8,2.1
+cecal,Pork,Anatum,818,14.9
+cecal,Pork,Derby,587,10.7
+cecal,Pork,Johannesburg,490,8.9
+cecal,Pork,"I 4,[5],12:i:-",376,6.9
+cecal,Pork,Infantis,307,5.6
+cecal,Pork,London,252,4.6
+cecal,Pork,Uganda,240,4.4
+cecal,Pork,Eko,201,3.7
+cecal,Pork,Agona,161,2.9
+cecal,Pork,Adelaide,152,2.8
+cecal,Turkey,Hadar,107,16.4
+cecal,Turkey,Reading,77,11.8
+cecal,Turkey,Senftenberg,74,11.3
+cecal,Turkey,Schwarzengrund,68,10.4
+cecal,Turkey,Agona,51,7.8
+cecal,Turkey,"I 4,[5],12:i:-",26,4
+cecal,Turkey,Muenchen,22,3.4
+cecal,Turkey,Typhimurium,22,3.4
+cecal,Turkey,Uganda,22,3.4
+cecal,Turkey,Anatum,20,3.1
+non-cecal,Beef,Montevideo,1447,17.1
+non-cecal,Beef,Dublin,1427,16.8
+non-cecal,Beef,Anatum,723,8.5
+non-cecal,Beef,Muenchen,519,6.1
+non-cecal,Beef,Newport,433,5.1
+non-cecal,Beef,Cerro,409,4.8
+non-cecal,Beef,Typhimurium,392,4.6
+non-cecal,Beef,Muenster,332,3.9
+non-cecal,Beef,Brandenburg,315,3.7
+non-cecal,Beef,Infantis,216,2.6
+non-cecal,Chicken,Kentucky,8559,28.6
+non-cecal,Chicken,Infantis,8385,28
+non-cecal,Chicken,Enteritidis,5508,18.4
+non-cecal,Chicken,Typhimurium,2618,8.7
+non-cecal,Chicken,Schwarzengrund,1542,5.1
+non-cecal,Chicken,"I -:r:1,5",443,1.5
+non-cecal,Chicken,Heidelberg,359,1.2
+non-cecal,Chicken,Thompson,325,1.1
+non-cecal,Chicken,"I 4,[5],12:i:-",262,0.9
+non-cecal,Chicken,Alachua,214,0.7
+non-cecal,Other,Montevideo,36,11.4
+non-cecal,Other,Typhimurium,28,8.8
+non-cecal,Other,Infantis,24,7.6
+non-cecal,Other,Newport,23,7.3
+non-cecal,Other,"I 4,[5],12:i:-",17,5.4
+non-cecal,Other,Muenchen,16,5
+non-cecal,Other,Braenderup,15,4.7
+non-cecal,Other,Dublin,13,4.1
+non-cecal,Other,Kentucky,13,4.1
+non-cecal,Other,Senftenberg,13,4.1
+non-cecal,Pork,Anatum,1068,12.1
+non-cecal,Pork,"I 4,[5],12:i:-",1034,11.7
+non-cecal,Pork,Infantis,874,9.9
+non-cecal,Pork,Derby,668,7.6
+non-cecal,Pork,Johannesburg,520,5.9
+non-cecal,Pork,London,389,4.4
+non-cecal,Pork,Uganda,367,4.2
+non-cecal,Pork,Eko,328,3.7
+non-cecal,Pork,Adelaide,302,3.4
+non-cecal,Pork,Typhimurium,269,3
+non-cecal,Turkey,Reading,406,13.7
+non-cecal,Turkey,Hadar,379,12.8
+non-cecal,Turkey,Schwarzengrund,277,9.4
+non-cecal,Turkey,Agona,253,8.6
+non-cecal,Turkey,Infantis,243,8.2
+non-cecal,Turkey,Senftenberg,189,6.4
+non-cecal,Turkey,Typhimurium,171,5.8
+non-cecal,Turkey,Uganda,162,5.5
+non-cecal,Turkey,Muenchen,113,3.8
+non-cecal,Turkey,"I 4,[5],12:i:-",92,3.1
+other,Beef,Heidelberg,19,16.1
+other,Beef,Typhimurium,13,11
+other,Beef,Dublin,12,10.2
+other,Beef,Montevideo,11,9.3
+other,Beef,Newport,10,8.5
+other,Beef,Cerro,4,3.4
+other,Beef,Muenchen,4,3.4
+other,Beef,"I 4,[5],12:i:-",3,2.5
+other,Beef,Kentucky,3,2.5
+other,Beef,Mbandaka,3,2.5
+other,Beef,Meleagridis,3,2.5
+other,Beef,Rissen,3,2.5
+other,Beef,Uganda,3,2.5
+other,Chicken,Enteritidis,39,22.7
+other,Chicken,Kentucky,34,19.8
+other,Chicken,Infantis,33,19.2
+other,Chicken,Typhimurium,26,15.1
+other,Chicken,Mbandaka,9,5.2
+other,Chicken,Brandenburg,7,4.1
+other,Chicken,Cerro,5,2.9
+other,Chicken,Braenderup,3,1.7
+other,Chicken,"I -:r:1,5",3,1.7
+other,Chicken,Agona,2,1.2
+other,Chicken,Alachua,2,1.2
+other,Chicken,Heidelberg,2,1.2
+other,Chicken,Muenchen,2,1.2
+other,Clinical,Enteritidis,75825,18.6
+other,Clinical,Newport,45626,11.2
+other,Clinical,Typhimurium,36949,9
+other,Clinical,Javiana,23851,5.8
+other,Clinical,"I 4,[5],12:i:-",17315,4.2
+other,Clinical,Infantis,14627,3.6
+other,Clinical,Saintpaul,12365,3
+other,Clinical,Braenderup,10768,2.6
+other,Clinical,Oranienburg,9859,2.4
+other,Clinical,Muenchen,9594,2.3
+other,Other,Enteritidis,146,12.3
+other,Other,Typhimurium,125,10.5
+other,Other,Kentucky,65,5.5
+other,Other,Heidelberg,55,4.6
+other,Other,Infantis,49,4.1
+other,Other,Thompson,49,4.1
+other,Other,Newport,47,4
+other,Other,Mbandaka,40,3.4
+other,Other,Saintpaul,36,3
+other,Other,"I 4,[5],12:i:-",29,2.4
+other,Pork,Infantis,24,18.8
+other,Pork,London,18,14.1
+other,Pork,"I 3,10:-:1,5",17,13.3
+other,Pork,Newport,11,8.6
+other,Pork,"I 4,[5],12:i:-",9,7
+other,Pork,Meleagridis,7,5.5
+other,Pork,Livingstone,6,4.7
+other,Pork,Panama,5,3.9
+other,Pork,Anatum,4,3.1
+other,Pork,Butantan,3,2.3
+other,Pork,Give,3,2.3
+other,Pork,"I -:r:1,5",3,2.3
+other,Turkey,Reading,13,19.7
+other,Turkey,Infantis,12,18.2
+other,Turkey,Schwarzengrund,12,18.2
+other,Turkey,Hadar,5,7.6
+other,Turkey,Senftenberg,5,7.6
+other,Turkey,Uganda,4,6.1
+other,Turkey,Typhimurium,3,4.5
+other,Turkey,Agona,2,3
+other,Turkey,I -:-:-,2,3
+other,Turkey,Montevideo,2,3
+retail,Beef,Montevideo,21,15.8
+retail,Beef,Typhimurium,20,15
+retail,Beef,Muenchen,10,7.5
+retail,Beef,Dublin,9,6.8
+retail,Beef,Kentucky,9,6.8
+retail,Beef,Reading,7,5.3
+retail,Beef,Newport,6,4.5
+retail,Beef,Cerro,5,3.8
+retail,Beef,Infantis,5,3.8
+retail,Beef,Agona,4,3
+retail,Beef,Anatum,4,3
+retail,Chicken,Kentucky,2097,35.9
+retail,Chicken,Infantis,1448,24.8
+retail,Chicken,Enteritidis,816,14
+retail,Chicken,Typhimurium,669,11.5
+retail,Chicken,Alachua,130,2.2
+retail,Chicken,Schwarzengrund,81,1.4
+retail,Chicken,"I -:r:1,5",78,1.3
+retail,Chicken,Heidelberg,71,1.2
+retail,Chicken,Braenderup,60,1
+retail,Chicken,I -:-:-,55,0.9
+retail,Clinical,Kentucky,17,28.8
+retail,Clinical,Enteritidis,10,16.9
+retail,Clinical,Infantis,6,10.2
+retail,Clinical,Typhimurium,5,8.5
+retail,Clinical,Schwarzengrund,3,5.1
+retail,Clinical,Senftenberg,3,5.1
+retail,Clinical,Alachua,2,3.4
+retail,Clinical,Hadar,2,3.4
+retail,Clinical,Muenchen,2,3.4
+retail,Clinical,Reading,2,3.4
+retail,Other,Infantis,43,17.8
+retail,Other,Kentucky,40,16.6
+retail,Other,Typhimurium,33,13.7
+retail,Other,Enteritidis,16,6.6
+retail,Other,Agona,12,5
+retail,Other,Schwarzengrund,11,4.6
+retail,Other,Hadar,7,2.9
+retail,Other,Thompson,7,2.9
+retail,Other,"I 4,[5],12:i:-",6,2.5
+retail,Other,Senftenberg,6,2.5
+retail,Pork,"I 4,[5],12:i:-",56,14.6
+retail,Pork,Infantis,43,11.2
+retail,Pork,Derby,30,7.8
+retail,Pork,Typhimurium,26,6.8
+retail,Pork,Anatum,24,6.3
+retail,Pork,Johannesburg,22,5.7
+retail,Pork,Uganda,17,4.4
+retail,Pork,Rissen,14,3.7
+retail,Pork,London,12,3.1
+retail,Pork,Worthington,11,2.9
+retail,Turkey,Reading,552,19.3
+retail,Turkey,Hadar,393,13.7
+retail,Turkey,Schwarzengrund,234,8.2
+retail,Turkey,Agona,196,6.8
+retail,Turkey,Infantis,195,6.8
+retail,Turkey,Senftenberg,181,6.3
+retail,Turkey,Typhimurium,143,5
+retail,Turkey,Muenchen,107,3.7
+retail,Turkey,"I 4,[5],12:i:-",102,3.6
+retail,Turkey,Uganda,94,3.3

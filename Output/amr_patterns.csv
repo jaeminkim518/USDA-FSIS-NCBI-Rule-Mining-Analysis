@@ -1,0 +1,745 @@
+pattern,specimen_type,sample_type,frequency
+AMI; BLA; FPI; TET,other,Clinical,7070
+AMI; TET,non-cecal,Chicken,5003
+AMI; BLA; FPI; PHE; QUI; TET,other,Clinical,4391
+AMI; BLA; FPI; PHE; TET,other,Clinical,4218
+AMI; TET,other,Clinical,3581
+AMI; FPI; QUI; TET,non-cecal,Chicken,3545
+AMI; BLA; FPI; MAC; PHE; QUI; TET,other,Clinical,3134
+AMI; BLA; FPI; QUI; TET,other,Clinical,2430
+AMI; FPI; QUI; TET,other,Clinical,1901
+AMI; FPI; TET,other,Clinical,1632
+AMI; BLA; FPI; PHE; QUI; TET,non-cecal,Chicken,1559
+AMI; FPI; PHE; QUI; TET,non-cecal,Chicken,1377
+FPI; TET,non-cecal,Chicken,1303
+AMI; TET,retail,Chicken,1256
+AMI; BLA; FPI; PHE; TET,non-cecal,Beef,999
+AMI; FPI,other,Clinical,970
+AMI; FPI; PHE; QUI; TET,other,Clinical,855
+AMI; BLA; FPI; QUI; TET,non-cecal,Chicken,837
+QUI; TET,other,Clinical,761
+AMI; BLA; FPI,other,Clinical,648
+FPI; MAC; PHE; TET,other,Clinical,619
+AMI; FPI; TET,non-cecal,Chicken,602
+AMI; BLA; FPI; QUI,other,Clinical,591
+AMI; TET,cecal,Chicken,584
+AMI; BLA; FPI; TET,non-cecal,Pork,573
+AMI; BLA; FPI; PHE; QUI,other,Clinical,566
+AMI; FPI; QUI; TET,retail,Chicken,561
+AMI; BLA; FPI; PHE; QUI; TET,non-cecal,Beef,557
+BLA; TET,other,Clinical,505
+AMI; FPI; QUI; TET,cecal,Chicken,478
+AMI; FPI; TET,non-cecal,Pork,466
+BLA; QUI; TET,other,Clinical,464
+BLA; QUI,other,Clinical,426
+FPI; TET,other,Clinical,400
+AMI; TET,retail,Turkey,393
+BLA; FPI; TET,non-cecal,Chicken,388
+FPI; QUI,other,Clinical,385
+AMI; TET,non-cecal,Turkey,355
+AMI; FPI; TET,cecal,Pork,341
+FPI; TET,retail,Chicken,318
+BLA; FPI,other,Clinical,303
+AMI; FPI; PHE; TET,other,Clinical,302
+AMI; FPI; PHE; QUI; TET,retail,Chicken,300
+AMI; BLA; FPI; PHE; QUI; TET,retail,Chicken,289
+AMI; BLA; TET,other,Clinical,284
+BLA; FPI; TET,other,Clinical,257
+FPI; QUI; TET,other,Clinical,257
+AMI; BLA; FPI; MAC; QUI; TET,other,Clinical,229
+AMI; QUI; TET,other,Clinical,216
+AMI; BLA; FPI; TET,cecal,Pork,213
+AMI; FPI; TET,retail,Turkey,212
+FPI; TET,cecal,Chicken,206
+BLA; FPI; TET,retail,Chicken,191
+AMI; FPI; TET,non-cecal,Turkey,188
+AMI; FPI; TET,non-cecal,Beef,180
+AMI; BLA; FPI; QUI; TET,retail,Chicken,175
+AMI; TET,non-cecal,Pork,173
+AMI; BLA; FPI; PHE; TET,non-cecal,Pork,170
+AMI; BLA; FPI; PHE; QUI; TET,cecal,Chicken,162
+AMI; FPI; PHE; QUI; TET,cecal,Chicken,160
+PHE; QUI; TET,other,Clinical,158
+AMI; FPI; PHE; QUI,non-cecal,Chicken,156
+AMI; BLA; FPI; PHE; TET,cecal,Beef,150
+AMI; BLA; TET,non-cecal,Chicken,148
+FPI; MAC; PHE; QUI; TET,other,Clinical,142
+AMI; BLA; FPI; MAC; PHE; TET,other,Clinical,141
+AMI; BLA; FPI; MAC; TET,other,Clinical,140
+AMI; BLA; FPI; QUI; TET,non-cecal,Pork,138
+AMI; BLA; FPI; TET,retail,Turkey,133
+AMI; FPI; MAC; PHE,other,Clinical,133
+AMI; BLA; FPI; MAC; PHE; COL; QUI; TET,other,Clinical,128
+AMI; BLA,other,Clinical,126
+AMI; FPI; TET,retail,Chicken,124
+AMI; BLA; FPI; TET,non-cecal,Turkey,114
+AMI; BLA; FPI; PHE; QUI; TET,non-cecal,Turkey,110
+AMI; BLA; FPI; QUI; TET,cecal,Chicken,110
+AMI; FPI; PHE; TET,non-cecal,Beef,110
+PHE; TET,other,Clinical,108
+AMI; TET,cecal,Pork,106
+AMI; QUI,other,Clinical,101
+AMI; TET,cecal,Turkey,99
+AMI; BLA; FPI; TET,non-cecal,Beef,93
+AMI; BLA; FPI; TET,non-cecal,Chicken,93
+AMI; QUI,non-cecal,Chicken,93
+BLA; FPI; PHE; QUI; TET,other,Clinical,93
+QUI; TET,non-cecal,Pork,92
+AMI; FPI; QUI,other,Clinical,90
+AMI; BLA; FPI; PHE; QUI; TET,retail,Turkey,88
+FPI; TET,retail,Turkey,87
+AMI; BLA; FPI; PHE; TET,cecal,Pork,86
+BLA; FPI; QUI; TET,other,Clinical,85
+AMI; PHE; QUI,non-cecal,Chicken,84
+AMI; FPI; MAC; PHE; TET,other,Clinical,82
+FPI; TET,non-cecal,Turkey,82
+BLA; FPI; TET,cecal,Chicken,81
+AMI; BLA; FPI; PHE; QUI,non-cecal,Chicken,80
+AMI; BLA; FPI; PHE; QUI; TET,non-cecal,Pork,80
+BLA; FPI; PHE; TET,other,Clinical,80
+AMI; FPI; TET,cecal,Chicken,79
+AMI; BLA; QUI; TET,other,Clinical,77
+AMI; BLA; FPI; PHE; QUI; TET,other,Other,75
+AMI; FPI; PHE; QUI,other,Clinical,73
+AMI; FPI; QUI,non-cecal,Chicken,73
+AMI; BLA,non-cecal,Chicken,72
+MAC; QUI,other,Clinical,70
+AMI; BLA; PHE; QUI; TET,other,Clinical,69
+AMI; TET,other,Other,69
+AMI; FPI; TET,cecal,Beef,66
+AMI; TET,non-cecal,Beef,66
+AMI; FPI; PHE; QUI; TET,non-cecal,Beef,65
+FPI; PHE; QUI,other,Clinical,63
+AMI; BLA; FPI; MAC; COL; QUI; TET,other,Clinical,62
+AMI; FPI,non-cecal,Chicken,62
+FPI; PHE; QUI; TET,other,Clinical,60
+AMI; BLA; TET,non-cecal,Turkey,58
+AMI; BLA; TET,retail,Turkey,57
+AMI; BLA; FPI; PHE; TET,retail,Turkey,56
+AMI; BLA; PHE; QUI,other,Clinical,56
+AMI; BLA; QUI,other,Clinical,56
+AMI; BLA; FPI; PHE; TET,other,Other,54
+AMI; BLA; FPI; QUI; TET,non-cecal,Beef,54
+AMI; BLA; FPI; PHE; TET,non-cecal,Turkey,53
+AMI; BLA; PHE; QUI,non-cecal,Chicken,52
+AMI; FPI; QUI; TET,non-cecal,Turkey,52
+BLA; PHE; QUI; TET,other,Clinical,52
+AMI; BLA; FPI; QUI; TET,cecal,Pork,51
+BLA; QUI,non-cecal,Chicken,51
+AMI; FPI; TET,cecal,Turkey,50
+AMI; BLA; FPI; MAC,other,Clinical,49
+AMI; FPI; QUI; TET,non-cecal,Pork,49
+AMI; PHE; QUI,other,Clinical,49
+AMI; BLA; FPI; MAC; COL; TET,other,Clinical,47
+AMI; COL; TET,other,Clinical,47
+BLA; FPI; PHE; QUI,other,Clinical,47
+AMI; FPI; QUI; TET,retail,Turkey,46
+AMI; BLA; FPI,retail,Turkey,45
+FPI; MAC; TET,other,Clinical,45
+BLA; TET,non-cecal,Pork,43
+AMI; FPI; MAC; PHE; QUI; TET,other,Clinical,42
+AMI; BLA; FPI; TET,retail,Chicken,41
+AMI; BLA; FPI; PHE,other,Clinical,40
+AMI; BLA; FPI; MAC; QUI,other,Clinical,39
+BLA; FPI; QUI,other,Clinical,39
+AMI; BLA; FPI; PHE; COL; QUI; TET,other,Clinical,38
+AMI; BLA; TET,retail,Chicken,38
+AMI; BLA; FPI,non-cecal,Pork,37
+AMI; BLA; FPI; MAC; PHE; QUI; TET,non-cecal,Beef,36
+AMI; PHE; QUI; TET,other,Clinical,36
+QUI; TET,non-cecal,Chicken,36
+AMI; BLA,non-cecal,Turkey,35
+AMI; FPI,retail,Turkey,35
+AMI; TET,cecal,Beef,35
+AMI; TET,retail,Other,35
+BLA; MAC,other,Clinical,35
+PHE; QUI; TET,non-cecal,Beef,35
+QUI; TET,cecal,Pork,35
+AMI; QUI; TET,non-cecal,Pork,34
+AMI; FPI; QUI; TET,cecal,Pork,33
+AMI; BLA; FPI; MAC; PHE; COL; TET,other,Clinical,32
+FPI; QUI,non-cecal,Chicken,32
+AMI; BLA; FPI; TET,cecal,Turkey,31
+AMI; BLA; QUI; TET,non-cecal,Chicken,31
+AMI; BLA; FPI; TET,cecal,Beef,29
+AMI; BLA; MAC; QUI; TET,other,Clinical,29
+AMI; BLA; TET,cecal,Turkey,29
+AMI; FPI,non-cecal,Pork,29
+AMI; PHE; QUI,retail,Chicken,28
+AMI; BLA; FPI,non-cecal,Turkey,27
+AMI; BLA; FPI; TET,retail,Pork,27
+AMI; BLA,retail,Turkey,26
+AMI; BLA; FPI; PHE; QUI; TET,cecal,Beef,26
+AMI; FPI,non-cecal,Turkey,26
+AMI; FPI; MAC; QUI; TET,other,Clinical,26
+AMI; FPI; PHE; QUI; TET,retail,Turkey,26
+BLA; FPI; MAC; QUI,other,Clinical,26
+AMI; FPI,cecal,Pork,25
+AMI; FPI; MAC; TET,other,Clinical,25
+AMI; FPI; QUI; TET,non-cecal,Beef,25
+AMI; TET,other,Chicken,25
+BLA; PHE; TET,other,Clinical,25
+FPI; TET,cecal,Turkey,25
+FPI; TET,non-cecal,Pork,25
+FPI; TET,retail,Other,25
+AMI; BLA; FPI; PHE; QUI; TET,cecal,Pork,24
+AMI; FPI; MAC,other,Clinical,24
+AMI; BLA; FPI; MAC; PHE; QUI,other,Clinical,23
+AMI; FPI; PHE; QUI; TET,non-cecal,Turkey,23
+BLA; FPI,non-cecal,Pork,23
+BLA; FPI; QUI,non-cecal,Chicken,23
+AMI; BLA; FPI; MAC; COL; TET,non-cecal,Pork,22
+AMI; FPI; PHE,other,Clinical,22
+BLA; FPI; PHE; TET,other,Pork,22
+AMI; BLA,retail,Chicken,21
+AMI; BLA; FPI; MAC; TET,non-cecal,Pork,21
+AMI; BLA; FPI; TET,other,Other,21
+AMI; FPI; PHE; TET,non-cecal,Pork,21
+AMI; FPI; TET,retail,Pork,21
+AMI; PHE; TET,other,Clinical,21
+AMI; BLA; FPI; MAC; COL; QUI; TET,non-cecal,Pork,20
+AMI; BLA; FPI; PHE; TET,other,Beef,20
+AMI; BLA; FPI; QUI; TET,non-cecal,Turkey,20
+AMI; BLA; TET,cecal,Chicken,20
+AMI; BLA; FPI,cecal,Pork,19
+AMI; BLA; FPI; PHE; QUI; TET,other,Beef,19
+AMI; BLA; TET,cecal,Pork,19
+AMI; FPI; PHE; QUI; TET,non-cecal,Pork,19
+BLA; TET,retail,Turkey,19
+FPI; MAC,other,Clinical,19
+AMI; MAC; QUI; TET,other,Clinical,18
+AMI; PHE; QUI,cecal,Chicken,18
+AMI; BLA; FPI; COL; QUI; TET,other,Clinical,17
+AMI; BLA; FPI; MAC; PHE; TET,non-cecal,Pork,17
+AMI; BLA; FPI; PHE; TET,cecal,Turkey,17
+AMI; BLA; FPI; QUI; TET,retail,Turkey,17
+AMI; BLA; TET,non-cecal,Pork,17
+AMI; FPI,retail,Chicken,17
+AMI; FPI; PHE; QUI,cecal,Chicken,17
+AMI; FPI; QUI; TET,retail,Other,17
+AMI; PHE; QUI; TET,non-cecal,Chicken,17
+AMI; QUI,cecal,Chicken,17
+BLA; MAC; QUI; TET,other,Clinical,17
+BLA; TET,non-cecal,Chicken,17
+AMI; BLA,cecal,Turkey,16
+AMI; BLA,non-cecal,Pork,16
+AMI; BLA; FPI; QUI,non-cecal,Chicken,16
+AMI; COL,other,Clinical,16
+AMI; FPI; PHE; TET,cecal,Beef,16
+AMI; TET,retail,Clinical,16
+BLA; TET,cecal,Pork,16
+BLA; TET,non-cecal,Turkey,16
+COL; QUI,other,Clinical,16
+FPI; MAC; PHE; TET,non-cecal,Beef,16
+FPI; TET,other,Chicken,16
+AMI; BLA; FPI; MAC; PHE; QUI; TET,cecal,Beef,15
+AMI; FPI; PHE; QUI,retail,Chicken,15
+AMI; QUI; TET,cecal,Pork,15
+FPI; TET,cecal,Beef,15
+FPI; TET,cecal,Pork,15
+MAC; TET,other,Clinical,15
+PHE; QUI; TET,cecal,Beef,15
+AMI; BLA; FPI; MAC; PHE,other,Clinical,14
+AMI; BLA; FPI; MAC; QUI; TET,non-cecal,Pork,14
+AMI; BLA; FPI; PHE; COL; TET,other,Clinical,14
+AMI; BLA; FPI; PHE; QUI,retail,Chicken,14
+AMI; BLA; QUI; TET,non-cecal,Pork,14
+AMI; FPI; QUI,retail,Chicken,14
+PHE; QUI; TET,cecal,Pork,14
+AMI; BLA; FPI; TET,cecal,Chicken,13
+AMI; FPI; COL; TET,other,Clinical,13
+AMI; FPI; MAC; QUI,other,Clinical,13
+AMI; FPI; PHE; QUI,non-cecal,Turkey,13
+AMI; MAC,other,Clinical,13
+AMI; TET,retail,Pork,13
+BLA; MAC; QUI,other,Clinical,13
+BLA; QUI,retail,Chicken,13
+BLA; QUI; TET,non-cecal,Pork,13
+QUI; TET,non-cecal,Beef,13
+AMI; BLA; FPI; MAC; TET,cecal,Pork,12
+AMI; COL,retail,Turkey,12
+AMI; QUI,retail,Chicken,12
+AMI; QUI; TET,non-cecal,Chicken,12
+BLA; FPI; PHE; TET,other,Other,12
+AMI; BLA; FPI,non-cecal,Beef,11
+AMI; BLA; FPI; MAC; PHE; COL; TET,non-cecal,Pork,11
+AMI; BLA; FPI; PHE; TET,non-cecal,Other,11
+AMI; BLA; FPI; PHE; TET,retail,Pork,11
+AMI; FPI; COL,retail,Turkey,11
+AMI; FPI; PHE; QUI; TET,cecal,Beef,11
+AMI; TET,non-cecal,Other,11
+BLA; FPI; TET,retail,Turkey,11
+FPI; QUI; TET,non-cecal,Chicken,11
+PHE; QUI,other,Clinical,11
+AMI; BLA; FPI; MAC; PHE; COL; QUI; TET,non-cecal,Pork,10
+AMI; BLA; FPI; PHE; QUI,cecal,Chicken,10
+AMI; BLA; FPI; PHE; QUI; TET,retail,Other,10
+AMI; BLA; FPI; PHE; TET,non-cecal,Chicken,10
+AMI; BLA; FPI; PHE; TET,retail,Beef,10
+AMI; BLA; PHE; QUI,retail,Chicken,10
+AMI; BLA; PHE; QUI; TET,non-cecal,Chicken,10
+AMI; BLA; PHE; TET,other,Clinical,10
+AMI; FPI; PHE; QUI; TET,retail,Other,10
+AMI; FPI; PHE; TET,non-cecal,Turkey,10
+AMI; FPI; PHE; TET,retail,Turkey,10
+BLA; MAC; TET,other,Clinical,10
+FPI; PHE; TET,other,Clinical,10
+AMI; BLA; FPI; COL; TET,other,Clinical,9
+AMI; BLA; FPI; MAC; PHE; QUI; TET,non-cecal,Pork,9
+AMI; BLA; FPI; PHE; TET,retail,Chicken,9
+AMI; BLA; FPI; QUI,retail,Chicken,9
+AMI; BLA; FPI; QUI; TET,other,Other,9
+AMI; BLA; QUI,non-cecal,Chicken,9
+AMI; COL; TET,non-cecal,Turkey,9
+AMI; FPI; PHE; QUI,retail,Turkey,9
+AMI; FPI; PHE; TET,cecal,Turkey,9
+AMI; FPI; QUI; TET,non-cecal,Other,9
+FPI; MAC; QUI,other,Clinical,9
+PHE; QUI; TET,non-cecal,Pork,9
+AMI; BLA; FPI,non-cecal,Chicken,8
+AMI; BLA; FPI; MAC; PHE; COL; TET,cecal,Pork,8
+AMI; BLA; FPI; MAC; PHE; QUI; TET,cecal,Pork,8
+AMI; BLA; FPI; MAC; QUI; TET,cecal,Pork,8
+AMI; BLA; FPI; PHE; QUI; TET,non-cecal,Other,8
+AMI; COL; TET,retail,Turkey,8
+BLA; QUI,cecal,Chicken,8
+FPI; PHE,other,Clinical,8
+PHE; QUI,non-cecal,Chicken,8
+QUI; TET,retail,Chicken,8
+AMI; BLA,cecal,Pork,7
+AMI; BLA; FPI; MAC; COL,non-cecal,Turkey,7
+AMI; BLA; FPI; PHE; QUI; TET,cecal,Turkey,7
+AMI; BLA; FPI; TET,non-cecal,Other,7
+AMI; BLA; FPI; TET,other,Turkey,7
+AMI; FPI,cecal,Chicken,7
+AMI; FPI,other,Other,7
+AMI; FPI; COL,other,Clinical,7
+AMI; FPI; PHE; QUI; TET,other,Chicken,7
+AMI; FPI; PHE; TET,cecal,Pork,7
+AMI; FPI; TET,other,Turkey,7
+AMI; FPI; TET,retail,Other,7
+BLA; FPI; MAC; PHE; QUI; TET,other,Clinical,7
+BLA; FPI; MAC; QUI; TET,other,Clinical,7
+BLA; QUI,non-cecal,Pork,7
+BLA; TET,cecal,Turkey,7
+FPI; MAC; PHE; TET,cecal,Beef,7
+PHE; TET,non-cecal,Other,7
+AMI; BLA,cecal,Chicken,6
+AMI; BLA; FPI,cecal,Turkey,6
+AMI; BLA; FPI; MAC; TET,non-cecal,Turkey,6
+AMI; BLA; FPI; QUI,non-cecal,Beef,6
+AMI; BLA; FPI; QUI,non-cecal,Pork,6
+AMI; BLA; FPI; QUI; TET,retail,Pork,6
+AMI; FPI,cecal,Turkey,6
+AMI; FPI; PHE; COL; TET,other,Clinical,6
+AMI; FPI; TET,other,Other,6
+BLA; COL,other,Clinical,6
+BLA; FPI; MAC,other,Clinical,6
+BLA; QUI; TET,non-cecal,Chicken,6
+COL; TET,other,Clinical,6
+FPI; MAC; QUI; TET,other,Clinical,6
+MAC; QUI; TET,other,Clinical,6
+AMI; BLA; FPI; COL,other,Clinical,5
+AMI; BLA; FPI; MAC; COL; TET,cecal,Pork,5
+AMI; BLA; FPI; MAC; PHE; COL; QUI; TET,cecal,Pork,5
+AMI; BLA; FPI; MAC; PHE; TET,cecal,Pork,5
+AMI; BLA; FPI; MAC; TET,non-cecal,Chicken,5
+AMI; BLA; FPI; PHE; QUI; TET,other,Chicken,5
+AMI; BLA; FPI; PHE; TET,retail,Other,5
+AMI; BLA; FPI; TET,other,Pork,5
+AMI; BLA; PHE; QUI,cecal,Chicken,5
+AMI; BLA; PHE; TET,non-cecal,Beef,5
+AMI; BLA; TET,other,Other,5
+AMI; FPI,non-cecal,Beef,5
+AMI; FPI; MAC; PHE; QUI,other,Clinical,5
+AMI; FPI; PHE; QUI; TET,other,Pork,5
+AMI; FPI; QUI; TET,cecal,Beef,5
+AMI; FPI; QUI; TET,other,Turkey,5
+AMI; FPI; TET,cecal,Other,5
+BLA; FPI,non-cecal,Beef,5
+BLA; PHE,other,Clinical,5
+BLA; QUI; TET,cecal,Pork,5
+BLA; TET,cecal,Beef,5
+FPI; TET,non-cecal,Beef,5
+QUI; TET,cecal,Chicken,5
+AMI; BLA; FPI,cecal,Beef,4
+AMI; BLA; FPI; COL; TET,cecal,Pork,4
+AMI; BLA; FPI; MAC; COL,other,Clinical,4
+AMI; BLA; FPI; PHE,non-cecal,Beef,4
+AMI; BLA; FPI; PHE; QUI; TET,other,Turkey,4
+AMI; BLA; FPI; TET,cecal,Other,4
+AMI; BLA; MAC; PHE; QUI,other,Clinical,4
+AMI; FPI; COL; TET,non-cecal,Turkey,4
+AMI; FPI; MAC,cecal,Pork,4
+AMI; FPI; PHE; COL; QUI; TET,other,Clinical,4
+AMI; FPI; PHE; QUI; TET,cecal,Pork,4
+AMI; FPI; QUI,cecal,Chicken,4
+AMI; FPI; QUI,non-cecal,Pork,4
+AMI; FPI; QUI; TET,other,Chicken,4
+AMI; MAC; QUI,other,Clinical,4
+AMI; MAC; TET,other,Clinical,4
+AMI; TET,other,Turkey,4
+BLA; FPI,cecal,Pork,4
+BLA; FPI; PHE; TET,non-cecal,Chicken,4
+BLA; FPI; TET,non-cecal,Turkey,4
+BLA; FPI; TET,retail,Other,4
+BLA; PHE; QUI,other,Pork,4
+BLA; PHE; QUI; TET,cecal,Beef,4
+FPI; TET,retail,Clinical,4
+MAC; PHE; QUI; TET,other,Clinical,4
+PHE; TET,cecal,Beef,4
+AMI; BLA,non-cecal,Beef,3
+AMI; BLA; FPI; MAC; COL; QUI; TET,cecal,Pork,3
+AMI; BLA; FPI; MAC; TET,cecal,Chicken,3
+AMI; BLA; FPI; MAC; TET,retail,Turkey,3
+AMI; BLA; FPI; PHE; COL,non-cecal,Beef,3
+AMI; BLA; FPI; PHE; QUI; TET,retail,Pork,3
+AMI; BLA; FPI; PHE; TET,cecal,Chicken,3
+AMI; BLA; FPI; QUI; TET,cecal,Beef,3
+AMI; BLA; FPI; QUI; TET,other,Pork,3
+AMI; BLA; MAC; PHE; TET,other,Clinical,3
+AMI; BLA; MAC; TET,other,Clinical,3
+AMI; BLA; PHE,other,Clinical,3
+AMI; BLA; PHE; COL; TET,other,Clinical,3
+AMI; BLA; PHE; QUI; TET,non-cecal,Pork,3
+AMI; BLA; QUI,cecal,Chicken,3
+AMI; BLA; QUI,retail,Chicken,3
+AMI; BLA; QUI; TET,cecal,Pork,3
+AMI; BLA; QUI; TET,retail,Chicken,3
+AMI; BLA; TET,cecal,Beef,3
+AMI; BLA; TET,non-cecal,Beef,3
+AMI; BLA; TET,retail,Pork,3
+AMI; COL; TET,cecal,Turkey,3
+AMI; FPI,cecal,Beef,3
+AMI; FPI,non-cecal,Other,3
+AMI; FPI; COL,non-cecal,Turkey,3
+AMI; FPI; COL; TET,retail,Turkey,3
+AMI; FPI; MAC; COL; QUI,other,Clinical,3
+AMI; FPI; MAC; TET,non-cecal,Beef,3
+AMI; FPI; PHE,non-cecal,Pork,3
+AMI; FPI; PHE; QUI,non-cecal,Beef,3
+AMI; FPI; PHE; QUI; TET,non-cecal,Other,3
+AMI; FPI; PHE; QUI; TET,other,Other,3
+AMI; FPI; PHE; QUI; TET,other,Turkey,3
+AMI; FPI; PHE; TET,retail,Beef,3
+AMI; FPI; QUI,cecal,Pork,3
+AMI; FPI; QUI,non-cecal,Beef,3
+AMI; FPI; QUI; TET,cecal,Turkey,3
+AMI; FPI; QUI; TET,retail,Pork,3
+AMI; FPI; TET,other,Chicken,3
+AMI; FPI; TET,retail,Beef,3
+AMI; PHE; QUI,non-cecal,Turkey,3
+AMI; PHE; TET,non-cecal,Beef,3
+AMI; QUI,non-cecal,Beef,3
+AMI; QUI,non-cecal,Pork,3
+BLA; COL; TET,other,Clinical,3
+BLA; FPI,non-cecal,Chicken,3
+BLA; FPI,retail,Pork,3
+BLA; FPI; MAC; TET,other,Clinical,3
+BLA; FPI; PHE,other,Clinical,3
+BLA; FPI; PHE; QUI; TET,other,Pork,3
+BLA; FPI; TET,cecal,Pork,3
+BLA; FPI; TET,non-cecal,Beef,3
+BLA; FPI; TET,other,Chicken,3
+BLA; MAC; PHE; QUI; TET,other,Clinical,3
+BLA; PHE; QUI; TET,non-cecal,Beef,3
+BLA; PHE; TET,non-cecal,Beef,3
+BLA; QUI,cecal,Pork,3
+BLA; QUI,non-cecal,Beef,3
+BLA; TET,non-cecal,Beef,3
+COL; TET,non-cecal,Turkey,3
+FPI; QUI,cecal,Chicken,3
+FPI; QUI,retail,Chicken,3
+FPI; QUI; TET,retail,Chicken,3
+FPI; TET,cecal,Other,3
+MAC; COL,other,Clinical,3
+PHE; TET,non-cecal,Beef,3
+QUI; TET,retail,Pork,3
+QUI; TET,retail,Turkey,3
+AMI; BLA,other,Turkey,2
+AMI; BLA; COL,retail,Turkey,2
+AMI; BLA; FPI,retail,Pork,2
+AMI; BLA; FPI; COL,non-cecal,Beef,2
+AMI; BLA; FPI; COL; QUI,other,Clinical,2
+AMI; BLA; FPI; COL; QUI; TET,non-cecal,Pork,2
+AMI; BLA; FPI; COL; TET,non-cecal,Pork,2
+AMI; BLA; FPI; MAC; COL,non-cecal,Pork,2
+AMI; BLA; FPI; MAC; COL; QUI,other,Clinical,2
+AMI; BLA; FPI; MAC; COL; TET,retail,Pork,2
+AMI; BLA; FPI; MAC; PHE,non-cecal,Pork,2
+AMI; BLA; FPI; MAC; PHE; COL; QUI,non-cecal,Pork,2
+AMI; BLA; FPI; MAC; PHE; COL; QUI; TET,other,Pork,2
+AMI; BLA; FPI; MAC; PHE; QUI; TET,other,Other,2
+AMI; BLA; FPI; MAC; PHE; QUI; TET,other,Pork,2
+AMI; BLA; FPI; MAC; PHE; TET,cecal,Turkey,2
+AMI; BLA; FPI; MAC; PHE; TET,non-cecal,Turkey,2
+AMI; BLA; FPI; MAC; TET,retail,Pork,2
+AMI; BLA; FPI; PHE; COL; QUI,other,Clinical,2
+AMI; BLA; FPI; PHE; QUI,non-cecal,Turkey,2
+AMI; BLA; FPI; PHE; QUI; TET,retail,Beef,2
+AMI; BLA; FPI; PHE; QUI; TET,retail,Clinical,2
+AMI; BLA; FPI; QUI; TET,cecal,Other,2
+AMI; BLA; FPI; QUI; TET,cecal,Turkey,2
+AMI; BLA; FPI; QUI; TET,non-cecal,Other,2
+AMI; BLA; PHE; QUI; TET,other,Other,2
+AMI; BLA; PHE; QUI; TET,retail,Chicken,2
+AMI; BLA; QUI,cecal,Pork,2
+AMI; BLA; QUI,non-cecal,Pork,2
+AMI; BLA; QUI; TET,non-cecal,Turkey,2
+AMI; BLA; TET,retail,Other,2
+AMI; COL,non-cecal,Chicken,2
+AMI; FPI,retail,Pork,2
+AMI; FPI; COL; QUI; TET,other,Clinical,2
+AMI; FPI; MAC,non-cecal,Beef,2
+AMI; FPI; MAC; COL,other,Clinical,2
+AMI; FPI; MAC; COL; QUI; TET,other,Clinical,2
+AMI; FPI; MAC; PHE,non-cecal,Chicken,2
+AMI; FPI; MAC; PHE,non-cecal,Pork,2
+AMI; FPI; MAC; TET,cecal,Pork,2
+AMI; FPI; PHE,non-cecal,Beef,2
+AMI; FPI; PHE; QUI,cecal,Turkey,2
+AMI; FPI; PHE; QUI; TET,other,Beef,2
+AMI; FPI; PHE; QUI; TET,retail,Clinical,2
+AMI; FPI; PHE; TET,non-cecal,Chicken,2
+AMI; FPI; PHE; TET,non-cecal,Other,2
+AMI; FPI; PHE; TET,other,Other,2
+AMI; FPI; PHE; TET,retail,Pork,2
+AMI; FPI; QUI; TET,retail,Clinical,2
+AMI; MAC; TET,non-cecal,Pork,2
+AMI; PHE; QUI,retail,Turkey,2
+AMI; PHE; QUI; TET,cecal,Chicken,2
+AMI; PHE; QUI; TET,retail,Chicken,2
+AMI; PHE; TET,non-cecal,Pork,2
+AMI; QUI,retail,Turkey,2
+AMI; QUI; TET,cecal,Chicken,2
+AMI; QUI; TET,retail,Chicken,2
+AMI; TET,cecal,Other,2
+BLA; COL; QUI,other,Clinical,2
+BLA; COL; TET,retail,Turkey,2
+BLA; FPI,retail,Turkey,2
+BLA; FPI; QUI,non-cecal,Pork,2
+BLA; FPI; QUI; TET,non-cecal,Turkey,2
+BLA; FPI; QUI; TET,retail,Chicken,2
+BLA; FPI; TET,cecal,Turkey,2
+BLA; FPI; TET,non-cecal,Other,2
+BLA; FPI; TET,non-cecal,Pork,2
+BLA; MAC,cecal,Pork,2
+BLA; MAC,non-cecal,Pork,2
+BLA; PHE; QUI,non-cecal,Chicken,2
+BLA; PHE; QUI,other,Clinical,2
+BLA; QUI; TET,non-cecal,Beef,2
+BLA; QUI; TET,retail,Chicken,2
+BLA; QUI; TET,retail,Turkey,2
+BLA; TET,retail,Chicken,2
+BLA; TET,retail,Pork,2
+COL; TET,non-cecal,Pork,2
+COL; TET,retail,Turkey,2
+FPI; COL,other,Clinical,2
+FPI; MAC,non-cecal,Pork,2
+FPI; QUI; TET,cecal,Chicken,2
+FPI; TET,other,Other,2
+FPI; TET,retail,Pork,2
+MAC; TET,non-cecal,Turkey,2
+QUI; TET,cecal,Beef,2
+AMI; BLA,retail,Other,1
+AMI; BLA,retail,Pork,1
+AMI; BLA; COL,other,Clinical,1
+AMI; BLA; COL; QUI,other,Clinical,1
+AMI; BLA; COL; TET,non-cecal,Turkey,1
+AMI; BLA; COL; TET,other,Clinical,1
+AMI; BLA; FPI,cecal,Chicken,1
+AMI; BLA; FPI,other,Other,1
+AMI; BLA; FPI,other,Turkey,1
+AMI; BLA; FPI,retail,Beef,1
+AMI; BLA; FPI; COL,cecal,Beef,1
+AMI; BLA; FPI; COL; TET,cecal,Turkey,1
+AMI; BLA; FPI; COL; TET,retail,Turkey,1
+AMI; BLA; FPI; MAC,cecal,Pork,1
+AMI; BLA; FPI; MAC; COL,retail,Turkey,1
+AMI; BLA; FPI; MAC; COL; QUI; TET,retail,Pork,1
+AMI; BLA; FPI; MAC; COL; TET,cecal,Beef,1
+AMI; BLA; FPI; MAC; COL; TET,non-cecal,Turkey,1
+AMI; BLA; FPI; MAC; PHE,non-cecal,Chicken,1
+AMI; BLA; FPI; MAC; PHE; COL; QUI,cecal,Pork,1
+AMI; BLA; FPI; MAC; PHE; COL; QUI; TET,non-cecal,Beef,1
+AMI; BLA; FPI; MAC; PHE; QUI,cecal,Pork,1
+AMI; BLA; FPI; MAC; PHE; QUI; TET,cecal,Other,1
+AMI; BLA; FPI; MAC; PHE; QUI; TET,cecal,Turkey,1
+AMI; BLA; FPI; MAC; PHE; QUI; TET,retail,Other,1
+AMI; BLA; FPI; MAC; PHE; TET,non-cecal,Chicken,1
+AMI; BLA; FPI; MAC; PHE; TET,other,Other,1
+AMI; BLA; FPI; MAC; PHE; TET,retail,Pork,1
+AMI; BLA; FPI; MAC; PHE; TET,retail,Turkey,1
+AMI; BLA; FPI; MAC; QUI,cecal,Pork,1
+AMI; BLA; FPI; MAC; QUI; TET,non-cecal,Beef,1
+AMI; BLA; FPI; MAC; TET,cecal,Beef,1
+AMI; BLA; FPI; PHE,non-cecal,Pork,1
+AMI; BLA; FPI; PHE,retail,Turkey,1
+AMI; BLA; FPI; PHE; COL; QUI; TET,non-cecal,Chicken,1
+AMI; BLA; FPI; PHE; COL; QUI; TET,non-cecal,Pork,1
+AMI; BLA; FPI; PHE; COL; QUI; TET,other,Other,1
+AMI; BLA; FPI; PHE; COL; TET,cecal,Pork,1
+AMI; BLA; FPI; PHE; COL; TET,non-cecal,Beef,1
+AMI; BLA; FPI; PHE; COL; TET,non-cecal,Pork,1
+AMI; BLA; FPI; PHE; COL; TET,non-cecal,Turkey,1
+AMI; BLA; FPI; PHE; QUI,cecal,Beef,1
+AMI; BLA; FPI; PHE; QUI,non-cecal,Pork,1
+AMI; BLA; FPI; PHE; QUI,other,Other,1
+AMI; BLA; FPI; PHE; QUI,retail,Other,1
+AMI; BLA; FPI; PHE; QUI,retail,Turkey,1
+AMI; BLA; FPI; PHE; QUI; TET,cecal,Other,1
+AMI; BLA; FPI; PHE; TET,other,Pork,1
+AMI; BLA; FPI; QUI,cecal,Chicken,1
+AMI; BLA; FPI; QUI,non-cecal,Turkey,1
+AMI; BLA; FPI; QUI,other,Chicken,1
+AMI; BLA; FPI; QUI,other,Pork,1
+AMI; BLA; FPI; QUI,retail,Pork,1
+AMI; BLA; FPI; QUI,retail,Turkey,1
+AMI; BLA; FPI; QUI; TET,retail,Beef,1
+AMI; BLA; FPI; QUI; TET,retail,Clinical,1
+AMI; BLA; FPI; QUI; TET,retail,Other,1
+AMI; BLA; FPI; TET,other,Beef,1
+AMI; BLA; FPI; TET,retail,Beef,1
+AMI; BLA; FPI; TET,retail,Other,1
+AMI; BLA; MAC,non-cecal,Pork,1
+AMI; BLA; MAC,other,Clinical,1
+AMI; BLA; MAC; COL,other,Clinical,1
+AMI; BLA; MAC; COL; QUI; TET,other,Clinical,1
+AMI; BLA; MAC; PHE; QUI; TET,non-cecal,Beef,1
+AMI; BLA; MAC; PHE; QUI; TET,other,Clinical,1
+AMI; BLA; MAC; PHE; QUI; TET,other,Pork,1
+AMI; BLA; MAC; TET,non-cecal,Pork,1
+AMI; BLA; PHE; QUI,non-cecal,Pork,1
+AMI; BLA; PHE; QUI,non-cecal,Turkey,1
+AMI; BLA; PHE; QUI,retail,Other,1
+AMI; BLA; PHE; QUI; TET,non-cecal,Turkey,1
+AMI; BLA; QUI,non-cecal,Beef,1
+AMI; BLA; QUI,non-cecal,Turkey,1
+AMI; BLA; QUI; TET,non-cecal,Beef,1
+AMI; BLA; QUI; TET,retail,Turkey,1
+AMI; BLA; TET,other,Chicken,1
+AMI; BLA; TET,other,Turkey,1
+AMI; BLA; TET,retail,Beef,1
+AMI; BLA; TET,retail,Clinical,1
+AMI; COL,non-cecal,Turkey,1
+AMI; COL,retail,Beef,1
+AMI; COL; TET,cecal,Pork,1
+AMI; COL; TET,non-cecal,Chicken,1
+AMI; COL; TET,other,Turkey,1
+AMI; FPI,other,Beef,1
+AMI; FPI; COL,cecal,Turkey,1
+AMI; FPI; COL; TET,cecal,Pork,1
+AMI; FPI; MAC; COL; QUI; TET,non-cecal,Pork,1
+AMI; FPI; MAC; PHE,non-cecal,Turkey,1
+AMI; FPI; MAC; PHE; COL; TET,other,Clinical,1
+AMI; FPI; MAC; PHE; QUI; TET,cecal,Pork,1
+AMI; FPI; MAC; PHE; TET,cecal,Beef,1
+AMI; FPI; MAC; PHE; TET,cecal,Pork,1
+AMI; FPI; MAC; PHE; TET,non-cecal,Beef,1
+AMI; FPI; MAC; PHE; TET,non-cecal,Chicken,1
+AMI; FPI; MAC; PHE; TET,non-cecal,Pork,1
+AMI; FPI; MAC; PHE; TET,other,Beef,1
+AMI; FPI; MAC; QUI; TET,cecal,Pork,1
+AMI; FPI; MAC; QUI; TET,non-cecal,Pork,1
+AMI; FPI; MAC; TET,cecal,Beef,1
+AMI; FPI; MAC; TET,non-cecal,Pork,1
+AMI; FPI; MAC; TET,retail,Turkey,1
+AMI; FPI; PHE,cecal,Chicken,1
+AMI; FPI; PHE,cecal,Pork,1
+AMI; FPI; PHE; QUI,cecal,Pork,1
+AMI; FPI; PHE; QUI,non-cecal,Pork,1
+AMI; FPI; PHE; QUI,other,Other,1
+AMI; FPI; PHE; QUI; TET,cecal,Turkey,1
+AMI; FPI; PHE; QUI; TET,retail,Beef,1
+AMI; FPI; PHE; TET,cecal,Chicken,1
+AMI; FPI; PHE; TET,cecal,Other,1
+AMI; FPI; PHE; TET,other,Beef,1
+AMI; FPI; QUI; TET,cecal,Other,1
+AMI; FPI; QUI; TET,retail,Beef,1
+AMI; FPI; TET,non-cecal,Other,1
+AMI; FPI; TET,other,Beef,1
+AMI; FPI; TET,retail,Clinical,1
+AMI; MAC,non-cecal,Beef,1
+AMI; MAC; PHE,other,Clinical,1
+AMI; MAC; PHE; TET,other,Clinical,1
+AMI; MAC; QUI,cecal,Pork,1
+AMI; MAC; QUI; TET,cecal,Pork,1
+AMI; MAC; QUI; TET,non-cecal,Pork,1
+AMI; MAC; TET,cecal,Beef,1
+AMI; MAC; TET,non-cecal,Turkey,1
+AMI; PHE,other,Clinical,1
+AMI; PHE; COL,other,Clinical,1
+AMI; PHE; QUI,cecal,Turkey,1
+AMI; PHE; QUI,non-cecal,Beef,1
+AMI; PHE; QUI,non-cecal,Pork,1
+AMI; PHE; QUI,other,Other,1
+AMI; PHE; QUI,retail,Other,1
+AMI; PHE; QUI; TET,non-cecal,Beef,1
+AMI; QUI,cecal,Pork,1
+AMI; QUI,non-cecal,Turkey,1
+AMI; QUI,retail,Pork,1
+AMI; QUI; TET,cecal,Turkey,1
+AMI; QUI; TET,non-cecal,Other,1
+AMI; TET,retail,Beef,1
+BLA; COL,cecal,Pork,1
+BLA; COL; TET,non-cecal,Turkey,1
+BLA; FPI,cecal,Turkey,1
+BLA; FPI,non-cecal,Other,1
+BLA; FPI,other,Chicken,1
+BLA; FPI,other,Other,1
+BLA; FPI,retail,Chicken,1
+BLA; FPI; COL; TET,other,Clinical,1
+BLA; FPI; MAC; PHE; QUI; TET,non-cecal,Pork,1
+BLA; FPI; MAC; PHE; TET,other,Clinical,1
+BLA; FPI; PHE; QUI; TET,cecal,Chicken,1
+BLA; FPI; PHE; QUI; TET,non-cecal,Chicken,1
+BLA; FPI; PHE; QUI; TET,non-cecal,Pork,1
+BLA; FPI; PHE; TET,other,Beef,1
+BLA; FPI; PHE; TET,retail,Other,1
+BLA; FPI; QUI,retail,Turkey,1
+BLA; FPI; QUI; TET,cecal,Chicken,1
+BLA; FPI; QUI; TET,non-cecal,Other,1
+BLA; FPI; TET,cecal,Beef,1
+BLA; FPI; TET,retail,Clinical,1
+BLA; MAC; PHE; TET,other,Clinical,1
+BLA; MAC; TET,cecal,Pork,1
+BLA; MAC; TET,non-cecal,Pork,1
+BLA; PHE,non-cecal,Turkey,1
+BLA; PHE; QUI,retail,Chicken,1
+BLA; PHE; QUI; TET,cecal,Pork,1
+BLA; PHE; QUI; TET,non-cecal,Pork,1
+BLA; PHE; QUI; TET,retail,Chicken,1
+BLA; PHE; TET,other,Other,1
+BLA; QUI,cecal,Beef,1
+BLA; QUI,other,Pork,1
+BLA; QUI,retail,Pork,1
+BLA; QUI; TET,cecal,Chicken,1
+BLA; QUI; TET,retail,Beef,1
+BLA; TET,non-cecal,Other,1
+BLA; TET,retail,Other,1
+COL; TET,cecal,Beef,1
+COL; TET,cecal,Pork,1
+COL; TET,non-cecal,Beef,1
+COL; TET,non-cecal,Chicken,1
+FPI; COL; QUI; TET,other,Clinical,1
+FPI; MAC; PHE; QUI; TET,cecal,Beef,1
+FPI; MAC; PHE; QUI; TET,other,Other,1
+FPI; MAC; PHE; TET,non-cecal,Pork,1
+FPI; MAC; PHE; TET,other,Other,1
+FPI; MAC; TET,non-cecal,Beef,1
+FPI; PHE; QUI; TET,cecal,Beef,1
+FPI; PHE; TET,other,Pork,1
+FPI; QUI,non-cecal,Pork,1
+FPI; QUI,other,Other,1
+FPI; QUI,retail,Other,1
+FPI; QUI; TET,non-cecal,Beef,1
+FPI; QUI; TET,non-cecal,Pork,1
+MAC; COL; QUI,other,Clinical,1
+MAC; QUI,non-cecal,Pork,1
+PHE; COL; QUI; TET,other,Clinical,1
+PHE; QUI,cecal,Chicken,1
+PHE; QUI; TET,non-cecal,Other,1
+QUI; TET,cecal,Other,1
+QUI; TET,cecal,Turkey,1
+QUI; TET,non-cecal,Turkey,1
+QUI; TET,other,Other,1
