@@ -95,20 +95,3 @@ isolates_clean <- isolates %>%
          SNP_cluster, min_same, min_diff, amr_genotypes, vir_genotypes)
 
 write_csv(isolates_clean, "Output/isolates_clean.csv")
-
-# counts by specimen type and year
-counts_by_year <- isolates_clean %>%
-  count(specimen_type, Year) %>%
-  arrange(Year) %>%
-  pivot_wider(names_from = Year, values_from = n, values_fill = 0)
-
-counts_by_year
-write_csv(counts_by_year, "Output/counts_by_year.csv")
-
-# counts by specimen type and sample type
-counts_by_sample <- isolates_clean %>%
-  count(specimen_type, sample_type) %>%
-  pivot_wider(names_from = sample_type, values_from = n, values_fill = 0)
-
-counts_by_sample
-write_csv(counts_by_sample, "Output/counts_by_sample_type.csv")

@@ -63,6 +63,31 @@ ggplot(infantis, aes(x = Year, y = pct_infantis, color = specimen_type)) +
   labs(y = "% Infantis", title = "Salmonella Infantis by year")
 ggsave("Output/infantis_by_year.png", width = 9, height = 5)
 
+# MDR within Infantis in chicken/clinical only by year
+infantis <- isolates %>% filter(serotype == "Infantis")
+infantis <- infantis %>% filter(sample_type == "Chicken" | sample_type == "Clinical")
+infantis <- infantis %>% left_join(isolate_classes, by = "BioSample")
+
+infantis$MDR <- ifelse(infantis$amr_category == "MDR", 1, 0)
+
+infantis_mdr <- infantis %>%
+  group_by(specimen_type, Year) %>%
+  summarise(N = n(), pct_MDR = 100 * mean(MDR))
+
+# skip years with fewer than 20 isolates
+infantis_mdr <- infantis_mdr %>% filter(N >= 20)
+
+infantis_mdr
+write_csv(infantis_mdr, "Output/infantis_mdr_by_year.csv")
+
+ggplot(infantis_mdr, aes(x = Year, y = pct_MDR, color = specimen_type)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = 2015:2026) +   # show every year on the x-axis
+  labs(y = "% MDR among Infantis", title = "MDR within Salmonella Infantis by year")
+
+ggsave("Output/infantis_mdr_by_year.png", width = 8, height = 5)
+
 
 # AMR gene prevalence
 gene_prev <- amr_long %>%
