@@ -88,6 +88,37 @@ ggplot(infantis_mdr, aes(x = Year, y = pct_MDR, color = specimen_type)) +
 
 ggsave("Output/infantis_mdr_by_year.png", width = 8, height = 5)
 
+# Resistance classes within chicken Infantis, by year
+inf_chicken <- isolates %>% filter(serotype == "Infantis", sample_type == "Chicken")
+inf_chicken <- inf_chicken %>% left_join(isolate_classes, by = "BioSample")
+
+inf_classes <- inf_chicken %>%
+  group_by(specimen_type, Year) %>%
+  summarise(N = n(),
+            AMINOGLYCOSIDE = 100 * mean(AMINOGLYCOSIDE),
+            `BETA-LACTAM` = 100 * mean(`BETA-LACTAM`),
+            `FOLATE-PATHWAY-INHIBITOR` = 100 * mean(`FOLATE-PATHWAY-INHIBITOR`),
+            PHENICOL = 100 * mean(PHENICOL),
+            QUINOLONE = 100 * mean(QUINOLONE),
+            TETRACYCLINE = 100 * mean(TETRACYCLINE),
+            MDR = 100 * mean(amr_category == "MDR"))
+
+# skip years with fewer than 20 Infantis isolates
+inf_classes <- inf_classes %>% filter(N >= 20)
+
+# one row per class so ggplot draws one line per class
+inf_long <- inf_classes %>%
+  pivot_longer(cols = AMINOGLYCOSIDE:MDR, names_to = "class", values_to = "percent")
+
+ggplot(inf_long, aes(x = Year, y = percent, color = class)) +
+  geom_line() +
+  geom_point() +
+  facet_wrap(~ specimen_type) +
+  scale_x_continuous(breaks = seq(2015, 2026, 2)) +
+  labs(y = "% of chicken Infantis isolates", title = "Resistance within Salmonella Infantis (chicken)")
+
+ggsave("Output/infantis_classes_by_year.png", width = 10, height = 4)
+
 
 # AMR gene prevalence
 gene_prev <- amr_long %>%
