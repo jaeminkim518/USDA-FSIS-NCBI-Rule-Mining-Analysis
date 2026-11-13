@@ -1,0 +1,58 @@
+group,profile,n,pct
+CDC clinical,gyrA_D87Y,30601,84.2
+CDC clinical,gyrA_D87N,3976,10.9
+CDC clinical,gyrA_S83Y,748,2.1
+CDC clinical,gyrA_D87G,441,1.2
+CDC clinical,qnrB19,274,0.8
+CDC clinical,gyrA_S83F,85,0.2
+CDC clinical,gyrA_D87Y + qnrB19,40,0.1
+CDC clinical,qnrS1,35,0.1
+CDC clinical,gyrB_E466D,21,0.1
+CDC clinical,gyrA_S83I,15,0
+CDC clinical,gyrA_D87Y + qnrB,13,0
+CDC clinical,gyrA_D87G + qnrS1,11,0
+CDC clinical,gyrA_D87N + qnrB19,8,0
+CDC clinical,gyrA_D87Y + qnrS1,8,0
+CDC clinical,gyrA_D87N + qnrS1,7,0
+CDC clinical,gyrA_A119E,6,0
+CDC clinical,qnrB + qnrB19,5,0
+CDC clinical,aac(6')-Ib-cr5 + qnrB6,4,0
+CDC clinical,qnrA1,4,0
+CDC clinical,gyrA_D87N + gyrA_S83Y,3,0
+CDC clinical,gyrA_D87Y + qnrB + qnrB19,3,0
+CDC clinical,gyrA_D87Y + qnrD1,3,0
+CDC clinical,gyrA_G81D,3,0
+CDC clinical,gyrA_S83Y + qnrS1,3,0
+CDC clinical,qnrB,3,0
+CDC clinical,aac(6')-Ib-cr5,2,0
+CDC clinical,gyrA_D87Y + gyrA_S83F + parC_G78D,2,0
+CDC clinical,gyrB_S464F,2,0
+CDC clinical,parC_E84K,2,0
+CDC clinical,qnrB2,2,0
+CDC clinical,aac(6')-Ib-cr5 + qnrA1,1,0
+CDC clinical,gyrA_D82G,1,0
+CDC clinical,gyrA_D87G + qnrB19 + qnrS1,1,0
+CDC clinical,gyrA_D87G + qnrS13,1,0
+CDC clinical,gyrA_D87G + qnrS2,1,0
+CDC clinical,gyrA_D87N + gyrB_S464F,1,0
+CDC clinical,gyrA_D87N + qnrB,1,0
+CDC clinical,gyrA_D87N + qnrB4,1,0
+CDC clinical,gyrA_D87Y + gyrA_S83F,1,0
+CDC clinical,gyrA_D87Y + gyrB_S464F,1,0
+CDC clinical,gyrA_D87Y + qnrB4,1,0
+CDC clinical,gyrA_D87Y + qnrB4 + qnrS1,1,0
+CDC clinical,gyrA_D87Y + qnrS,1,0
+CDC clinical,gyrA_G81C,1,0
+CDC clinical,gyrA_S83Y + qnrB4 + qnrS13,1,0
+CDC clinical,gyrA_S83Y + qnrS13,1,0
+CDC clinical,gyrB_E466D + qnrB19,1,0
+CDC clinical,parE_M438I,1,0
+CDC clinical,qnrB4,1,0
+CDC clinical,qnrB7,1,0
+CDC clinical,qnrS13,1,0
+CDC clinical,qnrS2,1,0
+cecal Chicken,gyrA_D87Y,87,100
+non-cecal Chicken,gyrA_D87Y,1867,99.8
+non-cecal Chicken,qnrB19,3,0.2
+retail Chicken,gyrA_D87Y,286,99.7
+retail Chicken,gyrA_D87Y + qnrB + qnrB19,1,0.3

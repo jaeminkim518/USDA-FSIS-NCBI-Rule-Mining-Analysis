@@ -22,7 +22,6 @@ table4 <- bind_rows(beef, chicken, pork, turkey, clinical)
 table4 <- table4 %>% filter(Year != "Mean" & Year != "SD")
 table4$Year <- as.numeric(table4$Year)
 
-
 # One row per class, so ggplot can draw one line per class
 # (macrolide and colistin left out, they're near 0% everywhere)
 long <- table4 %>%

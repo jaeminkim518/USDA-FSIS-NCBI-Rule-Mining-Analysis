@@ -55,17 +55,10 @@ sd_rows <- table4 %>%
   ungroup()
 
 table4_all <- bind_rows(table4, mean_rows, sd_rows) %>%
-  arrange(specimen_type, sample_type, Year)
+  select(sample_type, specimen_type, everything()) %>%
+  arrange(sample_type, specimen_type, Year)
 
-for (sp in unique(table4_all$specimen_type)) {
-  t <- table4_all <- bind_rows(table4, mean_rows, sd_rows) %>%
-    select(sample_type, specimen_type, everything()) %>%
-    arrange(sample_type, specimen_type, Year)
-  # One file per sample type 
-  for (st in unique(table4_all$sample_type)) {
-    t <- table4_all %>% filter(sample_type == st)
-    print(st)
-    print(t, n = 20)
-    write_csv(t, paste0("Output/table4_", st, ".csv"))
-  }
+for (st in unique(table4_all$sample_type)) {
+  t <- table4_all %>% filter(sample_type == st)
+  write_csv(t, paste0("Output/table4_", st, ".csv"))
 }
