@@ -5,3 +5,4 @@ Output/isolates_clean.csv
 .RData
 .Rproj.user/
 .DS_Store
+Output/isolates_clean*.csv

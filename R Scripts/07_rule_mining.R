@@ -9,7 +9,7 @@ setwd("~/USDA/Rule Mining Work")
 
 isolate_classes <- read_csv("Output/isolate_classes.csv")
 isolates <- read_csv("Output/isolates_clean.csv",
-                     col_select = c(BioSample, specimen_type, sample_type, Year))
+                     col_select = c(BioSample, specimen_type, sample_type, Year, serotype))
 
 narms_classes <- c("AMINOGLYCOSIDE", "BETA-LACTAM", "FOLATE-PATHWAY-INHIBITOR", "MACROLIDE",
                    "PHENICOL", "COLISTIN", "QUINOLONE", "TETRACYCLINE")
@@ -36,21 +36,37 @@ mine_group <- function(df) {
   
   q <- interestMeasure(rules, c("cosine", "jaccard", "kulczynski"))
   quality(rules) <- cbind(quality(rules), q)
-  subset(rules, cosine > 0.5 & kulczynski > 0.5 & jaccard > 0 & support > 0)
+  subset(rules, cosine > 0.5 & kulczynski > 0.5 & jaccard > 0 & support > 0 
+         # & count >= 5
+         )
 }
 
-# Mine every group with at least 20 isolates
+# Subsets to mine
+subsets <- list("All chicken" = dat,
+                "No Infantis" = dat %>% filter(!serotype %in% "Infantis"),
+                "Infantis"    = dat %>% filter(serotype %in% "Infantis"),
+                "Typhimurium" = dat %>% filter(serotype %in% "Typhimurium"),
+                "Kentucky"    = dat %>% filter(serotype %in% "Kentucky"))
+
+# Mine every stage x year with < 20 isolates
 all_rules <- list()
-for (g in unique(dat$group)) {
-  gdf <- dat %>% filter(group == g)
-  if (nrow(gdf) < 20) next
-  r <- mine_group(gdf)
-  if (length(r) == 0) next
-  rdf <- DATAFRAME(r)
-  rdf$group <- g
-  rdf$n_isolates <- nrow(gdf)
-  all_rules[[g]] <- rdf
+for (s in names(subsets)) {
+  sdat <- subsets[[s]]
+  for (g in unique(sdat$group)) {
+    gdf <- sdat %>% filter(group == g)
+    if (nrow(gdf) < 20) next
+    r <- mine_group(gdf)
+    if (length(r) == 0) next
+    rdf <- DATAFRAME(r)
+    rdf$subset <- s
+    rdf$group <- g
+    rdf$n_isolates <- nrow(gdf)
+    all_rules[[paste(s, g)]] <- rdf
+  }
 }
 
 rules_out <- bind_rows(all_rules)
-write_csv(rules_out, "Output/rules_chicken_class.csv")
+write_csv(rules_out, "Output/rules_chicken_class_serotype.csv")
+
+# number of rules per subset and group
+rules_out %>% count(subset, group)
